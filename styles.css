@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.header {
+    background: url('img/ventaneria.png') no-repeat center center/cover; /* Reemplaza "images/header-bg.jpg" con tu imagen */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header-content {
+    z-index: 1;
+}
+
+.header h1 {
+    font-size: 3.8rem;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.5rem;
+}
+
+
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-up {
+    animation: slideUp 2s ease-out forwards;
+}

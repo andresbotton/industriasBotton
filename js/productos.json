@@ -1,0 +1,329 @@
+[
+    {
+        "id": "Division",
+        "titulo": "Division Abatible",
+        "imagen": "./img/divisiones/diviaba.jpg",
+        "categoria": {
+            "nombre": "Division",
+            "id": "division"
+        }
+        
+    },
+    {
+        "id": "Division-03",
+        "titulo": "Division Corredera",
+        "imagen": "./img/divisiones/divicorre.jpg",
+        "categoria": {
+            "nombre": "Division",
+            "id": "division"
+        }
+    },
+
+    {
+        "id": "Division-05",
+        "titulo": "Division Tipo L",
+        "imagen": "./img/divisiones/06.jpg",
+        "categoria": {
+            "nombre": "Division",
+            "id": "division"
+        }
+    },
+    {
+        "id": "Division-06",
+        "titulo": "Division Corredera",
+        "imagen": "./img/divisiones/corre1.jpg",
+        "categoria": {
+            "nombre": "Division",
+            "id": "division"
+        }
+    },
+    {
+        "id": "Division-07",
+        "titulo": "Division Corredera",
+        "imagen": "./img/divisiones/corre2.jpg",
+        "categoria": {
+            "nombre": "Division",
+            "id": "division"
+        }
+    },
+    {
+        "id": "Division-08",
+        "titulo": "Division Corredera",
+        "imagen": "./img/divisiones/corre3.jpg",
+        "categoria": {
+            "nombre": "Division",
+            "id": "division"
+        }
+    },
+    {
+        "id": "Division-08",
+        "titulo": "Division Tipo L",
+        "imagen": "./img/divisiones/divil3.jpg",
+        "categoria": {
+            "nombre": "Division",
+            "id": "division"
+        }
+    },
+    {
+        "id": "Division-09",
+        "titulo": "Division Tipo L",
+        "imagen": "./img/divisiones/divil2.jpg",
+        "categoria": {
+            "nombre": "Division",
+            "id": "division"
+        }
+    },
+    {
+        "id": "Division-10",
+        "titulo": "Division Corredera",
+        "imagen": "./img/divisiones/division10.jpeg",
+        "categoria": {
+            "nombre": "Division",
+            "id": "division"
+        }
+    },
+    {
+        "id": "Division-11",
+        "titulo": "Division Tipo L",
+        "imagen": "./img/divisiones/division11.jpeg",
+        "categoria": {
+            "nombre": "Division",
+            "id": "division"
+        }
+    },
+    {
+        "id": "ventaneria",
+        "titulo": "ventaneria Alumnio",
+        "imagen": "./img/ventaneria/ventana11.jpeg",
+        "categoria": {
+            "nombre": "ventaneria",
+            "id": "ventaneria"
+        }
+    },
+    {
+        "id": "ventaneria",
+        "titulo": "ventaneria Alumnio",
+        "imagen": "./img/ventaneria/ventana3.jpg",
+        "categoria": {
+            "nombre": "ventaneria",
+            "id": "ventaneria"
+        }
+    },
+    {
+        "id": "ventaneria",
+        "titulo": "ventaneria Alumnio",
+        "imagen": "./img/ventaneria/ventana4.jpg",
+        "categoria": {
+            "nombre": "ventaneria",
+            "id": "ventaneria"
+        }
+    },
+    {
+        "id": "ventaneria",
+        "titulo": "ventaneria Alumnio",
+        "imagen": "./img/ventaneria/ventana5.jpg",
+        "categoria": {
+            "nombre": "ventaneria",
+            "id": "ventaneria"
+        }
+    },
+    {
+        "id": "ventaneria",
+        "titulo": "ventaneria Alumnio",
+        "imagen": "./img/ventaneria/ventana8.jpg",
+        "categoria": {
+            "nombre": "ventaneria",
+            "id": "ventaneria"
+        }
+    },
+    {
+        "id": "ventaneria",
+        "titulo": "ventaneria Alumnio",
+        "imagen": "./img/ventaneria/ventana2.jpg",
+        "categoria": {
+            "nombre": "ventaneria",
+            "id": "ventaneria"
+        }
+    },
+    {
+        "id": "ventaneria",
+        "titulo": "ventaneria Alumnio",
+        "imagen": "./img/ventaneria/ventana9.jpg",
+        "categoria": {
+            "nombre": "ventaneria",
+            "id": "ventaneria"
+        }
+    },
+    {
+        "id": "Hogar",
+        "titulo": "Instalacion de Vidrios",
+        "imagen": "./img/hogar/vidriosinsta.jpg",
+        "categoria": {
+            "nombre": "hogar",
+            "id": "hogar"
+        }
+    },
+    {
+        "id": "Hogar",
+        "titulo": "Espejo Inteligente",
+        "imagen": "./img/hogar/espejo.jpg",
+        "categoria": {
+            "nombre": "hogar",
+            "id": "hogar"
+        }
+    },
+    {
+        "id": "Hogar",
+        "titulo": "Baranda En Vidrio",
+        "imagen": "./img/hogar/baranda.jpg",
+        "categoria": {
+            "nombre": "hogar",
+            "id": "hogar"
+        }
+    },
+    {
+        "id": "Hogar",
+        "titulo": "Transporte a nivel internacional",
+        "imagen": "./img/hogar/hogar.jpeg",
+        "categoria": {
+            "nombre": "hogar",
+            "id": "hogar"
+        }
+    },
+    {
+        "id": "Hogar",
+        "titulo": "Espejo con dilatadores",
+        "imagen": "./img/hogar/espejo2.jpeg",
+        "categoria": {
+            "nombre": "hogar",
+            "id": "hogar"
+        }
+    },
+    {
+        "id": "Hogar",
+        "titulo": "Espejo flotado",
+        "imagen": "./img/hogar/espejo3.jpeg",
+        "categoria": {
+            "nombre": "hogar",
+            "id": "hogar"
+        }
+    },
+    {
+        "id": "Hogar",
+        "titulo": "Espejo de luz",
+        "imagen": "./img/hogar/espejo4.jpeg",
+        "categoria": {
+            "nombre": "hogar",
+            "id": "hogar"
+        }
+    },
+    {
+        "id": "Hogar",
+        "titulo": "Instalacion de Vidrios",
+        "imagen": "./img/hogar/vidrios1.jpeg",
+        "categoria": {
+            "nombre": "hogar",
+            "id": "hogar"
+        }
+    },
+    {
+        "id": "Hogar",
+        "titulo": "Instalacion de Vidrios",
+        "imagen": "./img/hogar/vidrios3.jpg",
+        "categoria": {
+            "nombre": "hogar",
+            "id": "hogar"
+        }
+    },
+    {
+        "id": "vitrinas",
+        "titulo": "Vitrina de caja",
+        "imagen": "./img/vitrinas/vitrina1.jpeg",
+        "categoria": {
+            "nombre": "vitrinas",
+            "id": "vitrinas"
+        }
+    },
+    {
+        "id": "vitrinas",
+        "titulo": "Vitrina vertical",
+        "imagen": "./img/vitrinas/vitrina2.jpeg",
+        "categoria": {
+            "nombre": "vitrinas",
+            "id": "vitrinas"
+        }
+    },
+    {
+        "id": "vitrinas",
+        "titulo": "Bombonera",
+        "imagen": "./img/vitrinas/vitrina3.jpeg",
+        "categoria": {
+            "nombre": "vitrinas",
+            "id": "vitrinas"
+        }
+    },
+    {
+        "id": "vitrinas",
+        "titulo": "Vitrina de lujo",
+        "imagen": "./img/vitrinas/vitrina4.jpeg",
+        "categoria": {
+            "nombre": "vitrinas",
+            "id": "vitrinas"
+        }
+    },
+    {
+        "id": "vitrinas",
+        "titulo": "Vitrina de lujo",
+        "imagen": "./img/vitrinas/vitrina5.jpeg",
+        "categoria": {
+            "nombre": "vitrinas",
+            "id": "vitrinas"
+        }
+    },
+
+    {
+        "id": "enmarcaciones",
+        "titulo": "Cuadro blaze",
+        "imagen": "./img/enmarcaciones/enma5.jpeg",
+        "categoria": {
+            "nombre": "enmarcaciones",
+            "id": "enmarcaciones"
+        }
+    },
+    {
+        "id": "enmarcaciones",
+        "titulo": "Cuadro zenith",
+        "imagen": "./img/enmarcaciones/enma4.jpeg",
+        "categoria": {
+            "nombre": "enmarcaciones",
+            "id": "enmarcaciones"
+        }
+    },
+    {
+        "id": "enmarcaciones",
+        "titulo": "Cuadro drift",
+        "imagen": "./img/enmarcaciones/enma3.jpeg",
+        "categoria": {
+            "nombre": "enmarcaciones",
+            "id": "enmarcaciones"
+        }
+    },
+    {
+        "id": "enmarcaciones",
+        "titulo": "Cuadro echo",
+        "imagen": "./img/enmarcaciones/enma2.jpeg",
+        "categoria": {
+            "nombre": "enmarcaciones",
+            "id": "enmarcaciones"
+        }
+    },
+    {
+        "id": "enmarcaciones",
+        "titulo": "Cuadro flux",
+        "imagen": "./img/enmarcaciones/enma1.jpeg",
+        "categoria": {
+            "nombre": "enmarcaciones",
+            "id": "enmarcaciones"
+        }
+    }
+]
