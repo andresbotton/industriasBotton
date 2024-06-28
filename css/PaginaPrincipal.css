@@ -512,17 +512,25 @@ body {
     margin-top: 24px;
     display: flex;
     color: var(--black2);
+    color: #0e0d0d;
+    text-decoration: none;
+    
 }
 
 .socialmedia__icon {
     font-size: 18px;
     margin-right: 30px;
     display: inline-block;
+    color: #070707;
+    text-decoration: none;
+    
 }
 
 .socialmedia__legend {
     color: var(--black2);
     margin-right: 16px;
+    color: #000000;
+    text-decoration: none;
 }
 
 .contact {
