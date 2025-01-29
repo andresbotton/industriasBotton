@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie</title>
+    <link rel="shortcut icon" href="Images/favicon/Foodie_Favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Mooli&family=Oswald:wght@600&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+        defer></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>    
+
+    <link rel="stylesheet" href="Css-files/scroll-top-button.css">
+    <link rel="stylesheet" href="Css-files/navbar.css">
+    <link rel="stylesheet" href="Css-files/footer.css">
+
+    <link rel="stylesheet" href="Css-files/mode-toggler.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="Css-files/googletranslate.css">
+    <!-- Sun Icon -->
+
+
+    <style>
+        .legal-pages {
+            text-decoration: none;
+            color: white;
+        }
+        .legal-pages:hover {
+            color:rgb(255, 255, 255);
+            text-shadow: #FC0 1px 0 6px;
+            text-decoration: none;
+        }
+        #progressBar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 8px;
+            background-color: #b80d0d;
+            z-index: 9999;
+        }
+        .home-ali {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px; 
+    align-items: center;
+
+    @media (max-width: 768px) {
+        .card-home img {
+            width: -webkit-fill-available;
+        }
+        
+    }
+}
+
+.typing-effect {
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+.highlight-text{
+    color:#D0EEB0;
+}
+
+.service-icon{
+    height:15% !important;
+    width: 15% !important;
+    opacity: 1 !important;
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f6f5f5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; 
+}
+
+#preloader-video {
+    width: 200%; 
+    height: auto; 
+    max-width: 600px; 
+}
+
+
+@media (max-width: 780px) {
+   
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 48%;
+    height: 48%;
+    background: #f6f5f5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; 
+}
+#preloader-video {
+    width: 100%; 
+    height: auto; 
+    max-width: 600px; 
+}
+}
+.circle {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      pointer-events: none;
+      background: radial-gradient(circle, rgba(255, 0, 0, 0.466), rgba(255, 52, 52, 0.5));
+      transition: transform 0.1s, left 0.1s, top 0.1s;
+      box-shadow: 0 0 20px #faff64,
+        0 0 60px #f52323,
+        0 0 100px #ff0000;
+        animation: colors 1s infinite;
+  transform: translate(-50%, -50%);
+    }
+
+    .circle-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    @media (max-width: 724px) {
+      .circle-container{
+        display: none;
+      }
+    }
+    </style>
+</head>
+
+<body>
+
+    
+
+    <section id="homeSlider" class="carousel slide carousel-fade bg-black" data-bs-ride="carousel" data-bs-interval="5000">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#homeSlider" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#homeSlider" data-bs-slide-to="1"></li>
+            <li data-bs-target="#homeSlider" data-bs-slide-to="2"></li>
+        </ol>
+        <!-- Indicators-->
+
+        <!-- Carousel Slides-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="slider-bg d-flex justify-content-center">
+                    <img src="./Images/homeSliderImages/home-slider-1.jpg" class="homeimg">
+                </div>
+                <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+                    <p class="slider-subtitle slider-reveal">TRADITIONAL & HYGIENIC</p>
+                    <h1 class="slider-title slider-reveal">
+                        For the love of <br> delicious food
+                    </h1>
+                    <p class="slider-text slider-reveal">
+                        come with family & feel the joy of mouthwatering food
+                    </p>
+                    <a href="Html-files/menu.html" class="btn btn-danger slider-button slider-reveal mx-auto" role="button">
+                        <span class="text text-1">VIEW OUR MENU</span>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slider-bg d-flex justify-content-center">
+                    <img src="Images/homeSliderImages/home-slider-2.jpg" class="homeimg">
+                </div>
+                <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+                    <p class="slider-subtitle slider-reveal">DELIGHTFUL EXPERIENCE</p>
+                    <h1 class="slider-title slider-reveal">
+                        Flavors Inspired by <br> the Seasons
+                    </h1>
+                    <p class="slider-text slider-reveal">
+                        come with family & feel the joy of mouthwatering food
+                    </p>
+                    <a href="Html-files/menu.html" class="btn btn-danger slider-button slider-reveal mx-auto" role="button">
+                        VIEW OUR MENU
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slider-bg d-flex justify-content-center">
+                    <img src="Images/homeSliderImages/home-slider-3.jpg" class="homeimg">
+                </div>
+                <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+                    <p class="slider-subtitle slider-reveal">AMAZING & DELICIOUS</p>
+                    <h1 class="slider-title slider-reveal">
+                        Where every flavour <br> tells a story
+                    </h1>
+                    <p class="slider-text slider-reveal">
+                        come with family & feel the joy of mouthwatering food
+                    </p>
+                    <a href="Html-files/menu.html" class="btn btn-danger slider-button slider-reveal mx-auto" role="button">
+                        VIEW OUR MENU
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel Slides-->
+
+        <!-- Carousel Controls-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#homeSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#homeSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <!-- Carousel Controls-->
+    </section>
+
+
+    <!-- Add some custom CSS for transitions and responsiveness -->
+    <style>
+        .slider-bg {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .homeimg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .carousel-caption {
+            text-align: center;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+        
+        .slider-reveal {
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translate3d(0, 40px, 0);
+            }
+            to {
+                opacity: 1;
+                transform: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .slider-title {
+                font-size: 1.5rem;
+            }
+            .slider-subtitle,
+            .slider-text {
+                font-size: 1rem;
+            }
+            .carousel-caption {
+                padding-bottom: 3rem;
+            }
+        }
+        
+    </style>
+
+</body>
+
+</html>
