@@ -44,6 +44,7 @@
 
 .check__copy {
     font-weight: 300;
+    align-items: center;
 }
 
 .newsletter {
@@ -364,11 +365,13 @@
     .subtitle {
         font-size: 35px;
         text-align: center;
+        margin-left: 50px;
     }
 
     .copy__section {
         font-size: 20px;
         text-align: center;
+        margin-left: 50px;
     }
 
     .services .card {

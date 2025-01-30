@@ -1,72 +1,330 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Industrias Botton</title>
-    <link rel="shortcut icon" href="img/vidrio1.jpg" type="imagen/x-icon">
-    <link rel="stylesheet" href="css/Contactanos.css">
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    <link href="img/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/521fdbf9ff.js" crossorigin="anonymous"></script>
+<!-- 
+    - primary meta tags
+  -->
+<title>Industrias Botton</title>
+<meta name="title" content="Industrias Botton - 2025">
+<meta name="description" content="Vidrieria con estilo moderno">
+
+<!-- 
+    - favicon
+  -->
+<link rel="shortcut icon" href="./img/Vidrios (1).png" type="image/png">
+
+<!-- 
+    - google font link
+  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+<!-- 
+    - custom css link
+  -->
+<link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/PaginaPrincipal.css">
+<link rel="stylesheet" href="css/Contactanos.css">
+
+<link rel="shortcut icon" href="img/vidrio1.jpg" type="imagen/x-icon">
+<link rel="stylesheet" href="css/PaginaPrincipal.css">
+<link rel="stylesheet" href="styles.css">
+<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<link href="img/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/521fdbf9ff.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="Images/favicon/Foodie_Favicon.png" type="image/x-icon">
+<link
+    href="https://fonts.googleapis.com/css2?family=Fuggles&family=Mooli&family=Oswald:wght@600&family=Roboto:wght@100;300&display=swap"
+    rel="stylesheet">
+<!-- 
+    - preload images
+  -->
+<link rel="preload" as="image" href="./img/pexels-heyho-6394515.jpg">
+<link rel="preload" as="image" href="./img/pexels-heyho-7005268.jpg">
+<link rel="preload" as="image" href="./img/pexels-heyho-7166939.jpg">
+
 </head>
-<header class="hero">
-    <nav class="nav__hero">
-        <div class="container nav__container">
-            <div class="logo">
-                <h2 class="logo__name">INDUSTRIAS BOTTON<span class="point"></span></h2>
+
+<body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+   <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Industrias</p>
+    <p class="text">Botton</p>
+ </div>
+
+    <!-- 
+    - #TOP BAR
+  -->
+
+    <div class="topbar">
+        <div class="container">
+
+            <address class="topbar-item">
+                <div class="icon">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">
+                    Bogota DC, Colombia.
+                </span>
+            </address>
+
+            <div class="separator"></div>
+
+            <div class="topbar-item item-2">
+                <div class="icon">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">Horario: 9:00 am to 6:00 pm</span>
             </div>
-            <div class="links">
-                <a href="index.html" class="link">Inicio</a>
-                <a href="catalogo.html" class="link">Catalogo</a>
-                <a href="proyectos.html" class="link">Proyectos</a>
-                <a href="contactanos.html" class="link link--active">Contacto</a>
-            </div>
+
+            <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20." class="topbar-item link">
+                <div class="icon">
+                    <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">+57 3002711404</span>
+            </a>
+
+            <div class="separator"></div>
+
+            <a href="mailto:industriasbotton@gmail.com" class="topbar-item link">
+                <div class="icon">
+                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">Industriasbotton@gmail.com</span>
+            </a>
+
         </div>
-    </nav>
-</header>
-
-<body oncontextmenu="return false">
-    <div class="container">
-        <h1 class="mt-3 text-center">Formulario de contacto</h1>
-        <form id="form">
-            <div class="mb-3">
-                <label for="subject" class="form-label">Asunto</label>
-                <input type="text" class="form-control" id="subject" placeholder="Asunto" name="subject" />
-            </div>
-            <div class="mb-3">
-                <label for="subject" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Nombre" name="nombre" / required>
-            </div>
-            <div class="mb-3">
-                <label for="subject" class="form-label">Correo</label>
-                <input type="email" class="form-control" id="correo" placeholder="Correo Electronico" name="correo" /
-                    required>
-            </div>
-            <div class="mb-3">
-                <label for="subject" class="form-label">Grosor del vidrio</label>
-                <input type="text" class="form-control" id="grosor" placeholder="Ejemplo: 5mm" name="grosor" / required>
-            </div>
-            <div class="mb-3">
-                <label for="subject" class="form-label">Medidas</label>
-                <input type="text" class="form-control" id="Medidas" placeholder="Ejemplo: 44cm*80cm" name="Medidas" />
-            </div>
-            <div class="mb-3">
-                <label for="message" class="form-label">Descripcion</label>
-                <textarea class="form-control" id="message" rows="3" name="message" required></textarea>
-
-            </div>
-            <br>
-            <button type="submit" class="boton1">Enviar</button>
-        </form>
     </div>
-    <script src="js/sendEmail.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+
+
+
+
+
+    <!-- 
+    - #HEADER
+  -->
+
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20." class="logo">
+                <h1>INDUSTRIAS BOTTON</h1>
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20." class="logo">
+                    <img src="./img/Vidrios3.png" width="160" height="50" alt="Grilli - Home">
+                </a>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="./index.html" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+
+                            <span class="span">Inicio</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="./catalogo.html" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+
+                            <span class="span">Catalogo</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="./proyectos.html" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+
+                            <span class="span">Proyectos</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="./contactanos.html" class="navbar-link hover-underline active">
+                            <div class="separator"></div>
+
+                            <span class="span">Conctactanos</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="text-center">
+                    <p class="headline-1 navbar-title">Visitanos</p>
+
+                    <address class="body-4">
+                        calle 76 #14b 02-sur <br>
+
+                    </address>
+                    <address class="body-4">
+                        Industrias Botton, Bogota DC, <br>
+                        Colombia
+                    </address>
+
+                    <p class="body-4 navbar-text">Horario: 9:00 am - 6:00pm</p>
+
+                    <a href="mailto:industriasbotton@gmail.com" class="body-4 sidebar-link">industriasbotton@gmail.com</a>
+
+                    <div class="separator"></div>
+
+                    <p class="contact-label">Telefonos</p>
+
+                    <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20." class="body-1 contact-number hover-underline">
+                        3002711404 <br> 3016258679
+                    </a>
+                </div>
+
+            </nav>
+
+            <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20."
+                class="btn btn-secondary">
+                <span class="text text-1">Cotiza Hoy!!</span>
+
+                <span class="text text-2" aria-hidden="true">Cotiza Hoy!!</span>
+            </a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+    <article>
+
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero text-center" aria-label="home" id="home">
+
+            <ul class="hero-slider" data-hero-slider>
+
+                <li class="slider-item active" data-hero-slider-item>
+
+                    <div class="slider-bg">
+                        <img src="./img/contactanos.jpg" width="1880" height="950" alt="" class="img-cover">
+                    </div>
+
+                    <h1 class="display-1 hero-title slider-reveal">
+                        Conctactanos en<br> whatsapp
+                    </h1>
+
+                    <p class="body-2 hero-text slider-reveal">
+                        <br>
+                    </p>
+
+                    <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20."
+                        class="btn btn-primary slider-reveal">
+                        <span class="text text-1">Cotiza Hoy!</span>
+
+                        <span class="text text-2" aria-hidden="true">Cotiza Hoy!</span>
+                    </a>
+
+                </li>
+                <li class="slider-item" data-hero-slider-item>
+
+                    <div class="slider-bg">
+                        <img src="" width="1880" height="950" alt="" class="img-cover">
+                    </div>
+                    <h1 class="display-1 hero-title slider-reveal">
+                        DESCUENTOS HASTA <br> 20%OFF
+                    </h1>
+
+                    <p class="body-2 hero-text slider-reveal">
+                        <br>2025
+                    </p>
+
+                    <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20."
+                        class="btn btn-primary slider-reveal">
+                        <span class="text text-1">Contactanos</span>
+
+                        <span class="text text-2" aria-hidden="true">Contactanos<span>
+                    </a>
+
+                </li>
+
+            </ul>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+                <ion-icon name="chevron-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+                <ion-icon name="chevron-forward"></ion-icon>
+            </button>
+
+            <a href="#" class="hero-btn has-after">
+                <img src="./img/Vidrios (1)-Photoroom.png" width="48" height="48" alt="booking icon">
+
+                <span class="label-2 text-center span">God is Good</span>
+            </a>
+
+        </section>
+
+        <div class="container1">
+            <h1 class="mt-3 text-center">Formulario de contacto</h1>
+            <form id="form">
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Asunto" name="subject" />
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre" name="nombre" / required>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Correo</label>
+                    <input type="email" class="form-control" id="correo" placeholder="Correo Electronico" name="correo"
+                        / required>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Grosor del vidrio</label>
+                    <input type="text" class="form-control" id="grosor" placeholder="Ejemplo: 5mm" name="grosor" /
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Medidas</label>
+                    <input type="text" class="form-control" id="Medidas" placeholder="Ejemplo: 44cm*80cm"
+                        name="Medidas" />
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Descripcion</label>
+                    <textarea class="form-control" id="message" rows="3" name="message" required></textarea>
+
+                </div>
+                <br>
+                <button type="submit" class="boton1">Enviar</button>
+            </form>
+        </div>
+        <script src="js/sendEmail.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 </body>
 
 
@@ -82,48 +340,93 @@
     class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
 </a>
-<footer class="footer">
-    <div class="container footer__caption">
-        <section class="download">
-            <div class="footer__copy">
-                <p class="copyright">IndustriasBotton&copy; 2024 Todos los derechos reservados</p>
 
-                <a href="#" class="politica__privacidad politica__privacidad--margin">Politica de privacidad Terminos y
-                    condiciones</a>
-                <a href="#" class="politica__privacidad "></a>
-            </div>
-        </section>
-        <section class="get-email">
-            <div class="socialmedia">
-               <p class="socialmedia__legend">Siguenos en:</p>
-               <a  class='socialmedia__icon bx bxl-facebook-circle'  href="https://www.facebook.com/profile.php?id=61561467876043">Facebook</a>
-               <a  class='socialmedia__icon bx bxl-instagram'  href="https://www.instagram.com/industrias_botton/">Instagram</a>
-            </div>
-         </section>
+<a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20."
+    class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+</a>
+
+
+<!-- 
+    - #FOOTER
+  -->
+
+<footer class="footer section has-bg-image text-center" style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+        <div class="footer-top grid-list">
+
+
+            <li>
+                <a href="https://www.facebook.com/share/18e3w3iG1t/?mibextid=qi2Omg"
+                    class="label-2 footer-link hover-underline">Facebook</a>
+            </li>
+
+            <li>
+                <a href="https://www.instagram.com/industrias_botton?igsh=M2MxNmJkOTR6YjJy"
+                    class="label-2 footer-link hover-underline">Instagram</a>
+            </li>
+
+            <li>
+                <a href="https://www.tiktok.com/@andres_botton11?_t=ZS-8tSnGxD22L3&_r=1"
+                    class="label-2 footer-link hover-underline">Tik Tok</a>
+            </li>
+
+            <li>
+                <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20."
+                    class="label-2 footer-link hover-underline">whatsapp</a>
+            </li>
+
+            <li>
+                <a href="./index.html" class="label-2 footer-link hover-underline">Home</a>
+            </li>
+            <li>
+                <a href="./contactanos.html" class="label-2 footer-link hover-underline">Contactanos</a>
+            </li>
+            <li>
+                <a href="./index.html" class="label-2 footer-link hover-underline">Industrias Botton <br>Page create Andres Botton</a>
+             </li>
+        </div>
     </div>
 
-    <div class="contact">
-        <div class="item__contact">
-            <i class='bx bx-copyright contact__icon'></i>
-            <h3 class="contact__title">Industrias Botton</h3>
-            <h3 class="contact__title">Page Create By Andres Botton</h3>
-        </div>
-        <div class="item__contact">
-            <i class='bx bx-mail-send contact__icon'></i>
-            <h3 class="contact__title">IndustriasBotton@gmail.com</h3>
-        </div>
-        <div class="item__contact">
-            <i class='bx bxs-edit-location contact__icon'></i>
-            <h3 class="contact__title"><a class="link2" href="contactanos.html">localizacion</a></h3>
-
-        </div>
-        <div class="item__contact item__contact--gold">
-            <i class='bx bxs-chat contact__icon contact__icon--modifier'></i>
-            <h3 class="contact__title"><a class="link2"
-                    href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20.">Contactanos
-                    Ahora</a></h3>
-        </div>
-    </div>
 </footer>
+
+</article>
+</main>
+
+<!-- 
+    - #BACK TO TOP
+  -->
+
+<a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+</a>
+
+
+
+
+
+<!-- 
+   - custom js link
+ -->
+<script src="./assets/js/script.js"></script>
+
+<!-- 
+   - ionicon link
+ -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script src="./assets/js/script.js"></script>
+
+<!-- 
+    - ionicon link
+  -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="./js/slider.js"></script>
+<script src="./js/questions.js"></script>
+<script src="./js/menu.js"></script>
+</body>
 
 </html>

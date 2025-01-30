@@ -1,10 +1,9 @@
 /* Testimony */
 :root{
-    --smoky-black-2: #161410;
-
+   
 }
 .testimony{
-    background-color: var(--smoky-black-2);
+    background-color: #d2caca;
 }
 
 .testimony__container{
@@ -45,11 +44,12 @@
 
 .testimony__texts{
     max-width: 700px;
+    color: #000;
 }
 
 .testimony__course{
     background-color: rgb(205, 161, 73);
-    color: #121111;
+    color: #eee6e6;
     display: inline-block;
     padding: 5px;
 }

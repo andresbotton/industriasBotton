@@ -1,99 +1,438 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Industrias Botton</title>
-   <link rel="shortcut icon" href="img/vidrio1.jpg" type="imagen/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <link rel="stylesheet" href="./css/proyecto.css">
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    <link href="img/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/521fdbf9ff.js" crossorigin="anonymous"></script>
+<!-- 
+    - primary meta tags
+  -->
+<title>Industrias Botton</title>
+<meta name="title" content="Industrias Botton - 2025">
+<meta name="description" content="Vidrieria con estilo moderno">
+
+<!-- 
+    - favicon
+  -->
+<link rel="shortcut icon" href="./img/Vidrios (1).png" type="image/png">
+
+<!-- 
+    - google font link
+  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+<!-- 
+    - custom css link
+  -->
+<link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/PaginaPrincipal.css">
+<link rel="stylesheet" href="css/Catalogo.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+<link rel="stylesheet" href="./css/proyecto.css">
+<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<link href="img/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/521fdbf9ff.js" crossorigin="anonymous"></script>
+
+<link rel="shortcut icon" href="img/vidrio1.jpg" type="imagen/x-icon">
+<link rel="stylesheet" href="css/PaginaPrincipal.css">
+<link rel="stylesheet" href="styles.css">
+<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<link href="img/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/521fdbf9ff.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="Images/favicon/Foodie_Favicon.png" type="image/x-icon">
+<link
+   href="https://fonts.googleapis.com/css2?family=Fuggles&family=Mooli&family=Oswald:wght@600&family=Roboto:wght@100;300&display=swap"
+   rel="stylesheet">
+<!-- 
+    - preload images
+  -->
+<link rel="preload" as="image" href="./img/pexels-heyho-6394515.jpg">
+<link rel="preload" as="image" href="./img/pexels-heyho-7005268.jpg">
+<link rel="preload" as="image" href="./img/pexels-heyho-7166939.jpg">
+
 </head>
 
-<body oncontextmenu="return false">
+<body id="top">
+   <!-- 
+    - #PRELOADER
+  -->
 
-    <nav class="nav__hero">
-        <div class="container nav__container">
-            <div class="logo">
-                <h2 class="logo__name">INDUSTRIAS BOTTON<span class="point"></span></h2>
+  <div class="preload" data-preaload>
+   <div class="circle"></div>
+   <p class="text">Industrias</p>
+   <p class="text">Botton</p>
+</div>
+   <!-- 
+    - #TOP BAR
+  -->
+
+   <div class="topbar">
+      <div class="container">
+
+         <address class="topbar-item">
+            <div class="icon">
+               <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
             </div>
-            <div class="links">
-                <a href="index.html" class="link">Inicio</a>
-                <a href="catalogo.html" class="link">Catalogo</a>
-                <a href="proyectos.html+" class="link">Proyectos</a>
-                <a href="contactanos.html" class="link link--active">Contacto</a>
+
+            <span class="span">
+               Bogota DC, Colombia.
+            </span>
+         </address>
+
+         <div class="separator"></div>
+
+         <div class="topbar-item item-2">
+            <div class="icon">
+               <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
             </div>
-        </div>
-    </nav>
-    <br>
-    </section>
-    <div class="wrapper">
-        <header class="header-mobile">
-            <button class="open-menu" id="open-menu">
-                <i class="bi bi-list"></i>
-            </button>
-            <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20."
-            class="float" target="_blank">
-            <i class="fa fa-whatsapp my-float"></i>
+
+            <span class="span">Horario: 9:00 am to 6:00 pm</span>
+         </div>
+
+         <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20." class="topbar-item link">
+            <div class="icon">
+               <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <span class="span">+57 3002711404</span>
          </a>
-        </header>
-        <aside>
-            <button class="close-menu" id="close-menu">
-                <i class="bi bi-x"></i>
+
+         <div class="separator"></div>
+
+         <a href="mailto:industriasbotton@gmail.com" class="topbar-item link">
+            <div class="icon">
+               <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <span class="span">mailto:industriasbotton@gmail.com</span>
+         </a>
+
+      </div>
+   </div>
+
+
+
+
+
+   <!-- 
+    - #HEADER
+  -->
+
+
+   <header class="header" data-header>
+      <div class="container">
+
+         <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20." class="logo">
+            <h1>INDUSTRIAS BOTTON</h1>
+         </a>
+
+         <nav class="navbar" data-navbar>
+
+            <button class="close-btn" aria-label="close menu" data-nav-toggler>
+               <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
             </button>
-            <header>
+
+            <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20." class="logo">
+               <img src="./img/Vidrios3.png" width="160" height="50" alt="Grilli - Home">
+            </a>
+
+            <ul class="navbar-list">
+
+               <li class="navbar-item">
+                  <a href="./index.html" class="navbar-link hover-underline">
+                     <div class="separator"></div>
+
+                     <span class="span">Inicio</span>
+                  </a>
+               </li>
+
+               <li class="navbar-item">
+                  <a href="./catalogo.html" class="navbar-link hover-underline ">
+                     <div class="separator"></div>
+
+                     <span class="span">Catalogo</span>
+                  </a>
+               </li>
+
+               <li class="navbar-item">
+                  <a href="./proyectos.html" class="navbar-link hover-underline active">
+                     <div class="separator"></div>
+
+                     <span class="span">Proyectos</span>
+                  </a>
+               </li>
+
+               <li class="navbar-item">
+                  <a href="./contactanos.html" class="navbar-link hover-underline">
+                     <div class="separator"></div>
+
+                     <span class="span">Conctactanos</span>
+                  </a>
+               </li>
+            </ul>
+
+            <div class="text-center">
+               <p class="headline-1 navbar-title">Visitanos</p>
+
+               <address class="body-4">
+                  calle 76 #14b 02-sur <br>
+
+               </address>
+               <address class="body-4">
+                  Industrias Botton, Bogota DC, <br>
+                  Colombia
+               </address>
+
+               <p class="body-4 navbar-text">Horario: 9:00 am - 6:00pm</p>
+
+               <a href="mailto:industriasbotton@gmail.com" class="body-4 sidebar-link">industriasbotton@gmail.com</a>
+
+               <div class="separator"></div>
+
+               <p class="contact-label">Telefonos</p>
+
+               <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+                  3002711404 <br> 3016258679
+               </a>
+            </div>
+
+         </nav>
+
+         <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20." class="btn btn-secondary">
+            <span class="text text-1">Cotiza Hoy!!</span>
+
+            <span class="text text-2" aria-hidden="true">Cotiza Hoy!!</span>
+         </a>
+
+         <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+         </button>
+
+         <div class="overlay" data-nav-toggler data-overlay></div>
+
+      </div>
+   </header>
+      <article>
+
+         <!-- 
+        - #HERO
+      -->
+
+         <section class="hero text-center" aria-label="home" id="home">
+
+            <ul class="hero-slider" data-hero-slider>
+
+               <li class="slider-item active" data-hero-slider-item>
+
+                  <div class="slider-bg">
+                     <img src="./img/vidrios10.webp" width="1880" height="950" alt=""
+                        class="img-cover">
+                  </div>
+
+                  <p class="label-2 section-subtitle slider-reveal"></p>
+
+                  <h1 class="display-1 hero-title slider-reveal">
+                     Disfruta de nuestros <br> Proyectos
+                  </h1>
+
+                  <p class="body-2 hero-text slider-reveal">
+                     <br>
+                  </p>
+
+                  <a href="./proyectos.html" class="btn btn-primary slider-reveal">
+                     <span class="text text-1">Ver Proyectos</span>
+
+                     <span class="text text-2" aria-hidden="true">Ver Proyectos</span>
+                  </a>
+
+               </li>
+               <li class="slider-item" data-hero-slider-item>
+
+                  <div class="slider-bg">
+                     <img src="./img/pexels-heyho-6957087.jpg" width="1880" height="950" alt="" class="img-cover">
+                  </div>
+
+                  <p class="label-2 section-subtitle slider-reveal">>
+
+                  <h1 class="display-1 hero-title slider-reveal">
+                     DESCUENTOS HASTA <br> 20%OFF
+                  </h1>
+
+                  <p class="body-2 hero-text slider-reveal">
+                   <br>En espejos inteligentes y <br>
+                   divisiones
+                  </p>
+
+                  <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20." class="btn btn-primary slider-reveal">
+                     <span class="text text-1">Contactanos</span>
+
+                     <span class="text text-2" aria-hidden="true">Contactanos<span>
+                  </a>
+
+               </li>
+
+            </ul>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+               <ion-icon name="chevron-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+               <ion-icon name="chevron-forward"></ion-icon>
+            </button>
+
+            <a href="#" class="hero-btn has-after">
+               <img src="./img/Vidrios (1)-Photoroom.png" width="48" height="48" alt="booking icon">
+
+               <span class="label-2 text-center span" >God is Good</span>
+            </a>
+
+         </section>
+         <div class="wrapper">
+            <header class="header-mobile">
+                <button class="open-menu" id="open-menu">
+                    <i class="bi bi-list"></i>
+                </button>
+                <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20."
+                class="float" target="_blank">
+                <i class="fa fa-whatsapp my-float"></i>
+             </a>
             </header>
-            <nav>
-                <ul class="menu">
-                    <li>
-                        <button id="todos" class="boton-menu boton-categoria active"><i
-                                class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
-                    </li>
-                    <li>
-                        <button id="division" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
-                            Divisiones de Baño</button>
-                    </li>
-                    <li>
-                        <button id="ventaneria" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
-                            ventaneria</button>
-                    </li>
-                    <li>
-                        <button id="hogar" class="boton-menu boton-categoria"><i
-                                class="bi bi-hand-index-thumb"></i>Hogar</button>
-                    </li>
-                    <li>
-                        <button id="vitrinas" class="boton-menu boton-categoria"><i
-                                class="bi bi-hand-index-thumb"></i>Vitrinas</button>
-                    </li>
-                    <li>
-                        <button id="enmarcaciones" class="boton-menu boton-categoria"><i
-                                class="bi bi-hand-index-thumb"></i>Enmarcaciones</button>
-                    </li>
-                </ul>
-            </nav>
-            <footer>
-                <p class="texto-footer">© 2024 Industrias Botton</p>
-            </footer>
-        </aside>
-        <main>
-            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
-            <div id="contenedor-productos" class="contenedor-productos">
-                <!-- Esto se va a rellenar con JS -->
-            </div>
-        </main>
-    </div>
-    <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20."
-            class="float" target="_blank">
-            <i class="fa fa-whatsapp my-float"></i>
-         </a>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script src="./js/main.js"></script>
-    <script src="./js/menu.js"></script>
+            <aside>
+                <button class="close-menu" id="close-menu">
+                    <i class="bi bi-x"></i>
+                </button>
+                <header>
+                </header>
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <button id="todos" class="boton-menu boton-categoria active"><i
+                                    class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
+                        </li>
+                        <li>
+                            <button id="division" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
+                                Divisiones de Baño</button>
+                        </li>
+                        <li>
+                            <button id="ventaneria" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
+                                ventaneria</button>
+                        </li>
+                        <li>
+                            <button id="hogar" class="boton-menu boton-categoria"><i
+                                    class="bi bi-hand-index-thumb"></i>Hogar</button>
+                        </li>
+                        <li>
+                            <button id="vitrinas" class="boton-menu boton-categoria"><i
+                                    class="bi bi-hand-index-thumb"></i>Vitrinas</button>
+                        </li>
+                        <li>
+                            <button id="enmarcaciones" class="boton-menu boton-categoria"><i
+                                    class="bi bi-hand-index-thumb"></i>Enmarcaciones</button>
+                        </li>
+                    </ul>
+                </nav>
+                <footer>
+                    <p class="texto-footer">© 2024 Industrias Botton</p>
+                </footer>
+            </aside>
+            <main>
+                <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+                <div id="contenedor-productos" class="contenedor-productos">
+                    <!-- Esto se va a rellenar con JS -->
+                </div>
+            </main>
+        </div>
+        <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20."
+                class="float" target="_blank">
+                <i class="fa fa-whatsapp my-float"></i>
+             </a>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <script src="./js/main.js"></script>
+        <script src="./js/menu.js"></script>
+   <!-- 
+    - #FOOTER
+  -->
+
+   <footer class="footer section has-bg-image text-center"
+      style="background-image: url('./assets/images/footer-bg.jpg')">
+      <div class="container">
+
+         <div class="footer-top grid-list">
+
+
+            <li>
+               <a href="https://www.facebook.com/share/18e3w3iG1t/?mibextid=qi2Omg" class="label-2 footer-link hover-underline">Facebook</a>
+            </li>
+
+            <li>
+               <a href="https://www.instagram.com/industrias_botton?igsh=M2MxNmJkOTR6YjJy" class="label-2 footer-link hover-underline">Instagram</a>
+            </li>
+
+            <li>
+               <a href="https://www.tiktok.com/@andres_botton11?_t=ZS-8tSnGxD22L3&_r=1" class="label-2 footer-link hover-underline">Tik Tok</a>
+            </li>
+
+            <li>
+               <a href="https://api.whatsapp.com/send?phone=573002711404&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Vidrios%20." class="label-2 footer-link hover-underline">whatsapp</a>
+            </li>
+
+            <li>
+               <a href="./index.html" class="label-2 footer-link hover-underline">Home</a>
+            </li>
+            <li>
+               <a href="./contactanos.html" class="label-2 footer-link hover-underline">Contactanos</a>
+            </li>
+            <li>
+               <a href="./index.html" class="label-2 footer-link hover-underline">Industrias Botton <br>Page create Andres Botton</a>
+            </li>
+         </div>
+      </div>
+
+   </footer>
+
+   </article>
+   </main>
+
+   <!-- 
+    - #BACK TO TOP
+  -->
+
+   <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+   </a>
+
+
+
+
+
+   <!-- 
+   - custom js link
+ -->
+   <script src="./assets/js/script.js"></script>
+
+   <!-- 
+   - ionicon link
+ -->
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+   <script src="./assets/js/script.js"></script>
+
+   <!-- 
+    - ionicon link
+  -->
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   <script src="./js/slider.js"></script>
+   <script src="./js/questions.js"></script>
+   <script src="./js/menu.js"></script>
 </body>
 
 </html>
