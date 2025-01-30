@@ -370,7 +370,7 @@ body.nav-active { overflow: hidden; }
   left: 50%;
   transform: translateX(-50%);
   min-width: max-content;
-  color: var(--gold-crayola);
+  color: var(--white);
 }
 
 .btn:is(:hover, :focus-visible)::before { bottom: -50%; }
