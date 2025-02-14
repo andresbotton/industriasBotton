@@ -2,7 +2,7 @@
     {
         "id": "espejos",
         "titulo": "Espejo redondo",
-        "imagen": "./img/espejos/circulo.jpg",
+        "imagen": "./img/espejos/circulo.JPG",
         "categoria": {
             "nombre": "espejos",
             "id": "espejos"
@@ -29,7 +29,7 @@
     {
         "id": "espejos",
         "titulo": "Espejo con samblasting",
-        "imagen": "./img/espejos/circulosamblasting.jpg",
+        "imagen": "./img/espejos/circulosamblasting.JPG",
         "categoria": {
             "nombre": "espejos",
             "id": "espejos"
@@ -47,7 +47,7 @@
     {
         "id": "espejos",
         "titulo": "Espejo Media luna",
-        "imagen": "./img/espejos/cuartoluna.jpg",
+        "imagen": "./img/espejos/cuartoluna.JPG",
         "categoria": {
             "nombre": "espejos",
             "id": "espejos"
@@ -56,7 +56,7 @@
     {
         "id": "espejos",
         "titulo": "Espejo Media luna",
-        "imagen": "./img/espejos/medialuna.jpg",
+        "imagen": "./img/espejos/medialuna.JPG",
         "categoria": {
             "nombre": "espejos",
             "id": "espejos"
