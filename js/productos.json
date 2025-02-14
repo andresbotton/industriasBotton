@@ -1,5 +1,78 @@
 [
     {
+        "id": "espejos inteligentes",
+        "titulo": "Espejo redondo",
+        "imagen": "./img/espejosInteligentes/circulo.jpg",
+        "categoria": {
+            "nombre": "espejos inteligentes",
+            "id": "espejos inteligentes"
+        }
+    },
+    {
+        "id": "espejos inteligentes",
+        "titulo": "Espejo luz calida",
+        "imagen": "./img/espejosInteligentes/circulointeligente.jpg",
+        "categoria": {
+            "nombre": "espejos inteligentes",
+            "id": "espejos inteligentes"
+        }
+    },
+    {
+        "id": "espejos inteligentes",
+        "titulo": "Espejo luz fria",
+        "imagen": "./img/espejosInteligentes/ciruclointeligenteblanco.jpg",
+        "categoria": {
+            "nombre": "espejos inteligentes",
+            "id": "espejos inteligentes"
+        }
+    },
+    {
+        "id": "enmarcaciones",
+        "titulo": "Espejo con samblasting",
+        "imagen": "./img/espejosInteligentes/circulosamblasting.jpg",
+        "categoria": {
+            "nombre": "espejos inteligentes",
+            "id": "espejos inteligentes"
+        }
+    },
+    {
+        "id": "espejos inteligentes",
+        "titulo": "Espejo redondo",
+        "imagen": "./img/espejosInteligentes/circulo2.jpg",
+        "categoria": {
+            "nombre": "espejos inteligentes",
+            "id": "espejos inteligentes"
+        }
+    },
+    {
+        "id": "espejos inteligentes",
+        "titulo": "Espejo Media luna",
+        "imagen": "./img/espejosInteligentes/cuartoluna.jpg",
+        "categoria": {
+            "nombre": "espejos inteligentes",
+            "id": "espejos inteligentes"
+        }
+    },
+    {
+        "id": "espejos inteligentes",
+        "titulo": "Espejo Media luna",
+        "imagen": "./img/espejosInteligentes/medialuna.jpg",
+        "categoria": {
+            "nombre": "espejos inteligentes",
+            "id": "espejos inteligentes"
+        }
+    },
+    {
+        "id": "espejos inteligentes",
+        "titulo": "Espejo Multicolor",
+        "imagen": "./img/espejosInteligentes/rectangular.jpg",
+        "categoria": {
+            "nombre": "espejos inteligentes",
+            "id": "espejos inteligentes"
+        }
+    },
+
+    {
         "id": "Division",
         "titulo": "Division Abatible",
         "imagen": "./img/divisiones/diviaba.jpg",
@@ -280,7 +353,6 @@
             "id": "vitrinas"
         }
     },
-
     {
         "id": "enmarcaciones",
         "titulo": "Cuadro blaze",
