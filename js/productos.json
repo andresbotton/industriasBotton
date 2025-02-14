@@ -2,7 +2,7 @@
     {
         "id": "espejos",
         "titulo": "Espejo redondo",
-        "imagen": "./img/espejosInteligentes/circulo.jpg",
+        "imagen": "./img/espejos/circulo.jpg",
         "categoria": {
             "nombre": "espejos",
             "id": "espejos"
@@ -11,7 +11,7 @@
     {
         "id": "espejos",
         "titulo": "Espejo luz calida",
-        "imagen": "./img/espejosInteligentes/circulointeligente.jpg",
+        "imagen": "./img/espejos/circulointeligente.jpg",
         "categoria": {
             "nombre": "espejos ",
             "id": "espejos"
@@ -20,7 +20,7 @@
     {
         "id": "espejos",
         "titulo": "Espejo luz fria",
-        "imagen": "./img/espejosInteligentes/ciruclointeligenteblanco.jpg",
+        "imagen": "./img/espejos/ciruclointeligenteblanco.jpg",
         "categoria": {
             "nombre": "espejos",
             "id": "espejos"
@@ -29,7 +29,7 @@
     {
         "id": "espejos",
         "titulo": "Espejo con samblasting",
-        "imagen": "./img/espejosInteligentes/circulosamblasting.jpg",
+        "imagen": "./img/espejos/circulosamblasting.jpg",
         "categoria": {
             "nombre": "espejos",
             "id": "espejos"
@@ -38,7 +38,7 @@
     {
         "id": "espejos",
         "titulo": "Espejo redondo",
-        "imagen": "./img/espejosInteligentes/circulo2.jpg",
+        "imagen": "./img/divisiones/circulo2.jpg",
         "categoria": {
             "nombre": "espejos",
             "id": "espejos"
@@ -47,7 +47,7 @@
     {
         "id": "espejos",
         "titulo": "Espejo Media luna",
-        "imagen": "./img/espejosInteligentes/cuartoluna.jpg",
+        "imagen": "./img/espejos/cuartoluna.jpg",
         "categoria": {
             "nombre": "espejos",
             "id": "espejos"
@@ -56,7 +56,7 @@
     {
         "id": "espejos",
         "titulo": "Espejo Media luna",
-        "imagen": "./img/espejosInteligentes/medialuna.jpg",
+        "imagen": "./img/espejos/medialuna.jpg",
         "categoria": {
             "nombre": "espejos",
             "id": "espejos"
@@ -65,7 +65,7 @@
     {
         "id": "espejos",
         "titulo": "Espejo Multicolor",
-        "imagen": "./img/espejosInteligentes/rectangular.jpg",
+        "imagen": "./img/espejos/rectangular.jpg",
         "categoria": {
             "nombre": "espejos",
             "id": "espejos"
@@ -104,7 +104,7 @@
     {
         "id": "Division-06",
         "titulo": "Division Corredera",
-        "imagen": "./img/divisiones/circulo2.jpg",
+        "imagen": "./img/divisiones/corre3.jpg",
         "categoria": {
             "nombre": "Division",
             "id": "division"
@@ -113,7 +113,7 @@
     {
         "id": "Division-07",
         "titulo": "Division Corredera",
-        "imagen": "./img/divisiones/corre2.jpg",
+        "imagen": "./img/divisiones/diviaba.jpg",
         "categoria": {
             "nombre": "Division",
             "id": "division"
