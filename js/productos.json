@@ -95,7 +95,7 @@
     {
         "id": "Division-05",
         "titulo": "Division Tipo L",
-        "imagen": "./img/espejosInteligentes/circulo2.jpg",
+        "imagen": "./img/divisiones/06.jpg",
         "categoria": {
             "nombre": "Division",
             "id": "division"
@@ -104,7 +104,7 @@
     {
         "id": "Division-06",
         "titulo": "Division Corredera",
-        "imagen": "./img/divisiones/corre1.jpg",
+        "imagen": "./img/divisiones/circulo2.jpg",
         "categoria": {
             "nombre": "Division",
             "id": "division"
