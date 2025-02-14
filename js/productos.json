@@ -1,74 +1,74 @@
 [
     {
-        "id": "espejos inteligentes",
+        "id": "espejos",
         "titulo": "Espejo redondo",
         "imagen": "./img/espejosInteligentes/circulo.jpg",
         "categoria": {
-            "nombre": "espejos inteligentes",
-            "id": "espejos inteligentes"
+            "nombre": "espejos",
+            "id": "espejos"
         }
     },
     {
-        "id": "espejos inteligentes",
+        "id": "espejos",
         "titulo": "Espejo luz calida",
         "imagen": "./img/espejosInteligentes/circulointeligente.jpg",
         "categoria": {
-            "nombre": "espejos inteligentes",
-            "id": "espejos inteligentes"
+            "nombre": "espejos ",
+            "id": "espejos"
         }
     },
     {
-        "id": "espejos inteligentes",
+        "id": "espejos",
         "titulo": "Espejo luz fria",
         "imagen": "./img/espejosInteligentes/ciruclointeligenteblanco.jpg",
         "categoria": {
-            "nombre": "espejos inteligentes",
-            "id": "espejos inteligentes"
+            "nombre": "espejos",
+            "id": "espejos"
         }
     },
     {
-        "id": "enmarcaciones",
+        "id": "espejos",
         "titulo": "Espejo con samblasting",
         "imagen": "./img/espejosInteligentes/circulosamblasting.jpg",
         "categoria": {
-            "nombre": "espejos inteligentes",
-            "id": "espejos inteligentes"
+            "nombre": "espejos",
+            "id": "espejos"
         }
     },
     {
-        "id": "espejos inteligentes",
+        "id": "espejos",
         "titulo": "Espejo redondo",
         "imagen": "./img/espejosInteligentes/circulo2.jpg",
         "categoria": {
-            "nombre": "espejos inteligentes",
-            "id": "espejos inteligentes"
+            "nombre": "espejos",
+            "id": "espejos"
         }
     },
     {
-        "id": "espejos inteligentes",
+        "id": "espejos",
         "titulo": "Espejo Media luna",
         "imagen": "./img/espejosInteligentes/cuartoluna.jpg",
         "categoria": {
-            "nombre": "espejos inteligentes",
-            "id": "espejos inteligentes"
+            "nombre": "espejos",
+            "id": "espejos"
         }
     },
     {
-        "id": "espejos inteligentes",
+        "id": "espejos",
         "titulo": "Espejo Media luna",
         "imagen": "./img/espejosInteligentes/medialuna.jpg",
         "categoria": {
-            "nombre": "espejos inteligentes",
-            "id": "espejos inteligentes"
+            "nombre": "espejos",
+            "id": "espejos"
         }
     },
     {
-        "id": "espejos inteligentes",
+        "id": "espejos",
         "titulo": "Espejo Multicolor",
         "imagen": "./img/espejosInteligentes/rectangular.jpg",
         "categoria": {
-            "nombre": "espejos inteligentes",
-            "id": "espejos inteligentes"
+            "nombre": "espejos",
+            "id": "espejos"
         }
     },
 
